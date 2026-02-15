@@ -2,7 +2,7 @@ name: Daily Poultry Price
 
 on:
   schedule:
-    - cron: "51 13 * * *"
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
